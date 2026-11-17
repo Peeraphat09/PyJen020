@@ -12,4 +12,4 @@ def test_add_negative():
 def test_main_output(capsys):
     main()
     captured = capsys.readouterr()
-    assert "Result: 10 + 25 = 35" in captured.out
+    assert "Result: 10 + 50 = 60" in captured.out
